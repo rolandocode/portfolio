@@ -71,6 +71,16 @@
       opacity: 1;
     }
   }
+
+  #experience .card {
+    /* display: flex;
+    flex-direction: column; */
+    height: 100%;
+}
+
+#experience .card-body {
+    flex-grow: 1; /* Makes sure the body section fills the available space */
+}
   
   
   
