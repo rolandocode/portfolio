@@ -1,5 +1,15 @@
 <style>
 
+.zoom {
+      transition: transform.5s; /* Animation */
+      filter: brightness(96%)
+    }
+
+  .zoom:hover {
+      transform: scale(1.04); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+      filter: brightness(102%)
+    }
+  </style>
 </style>
 
 <!DOCTYPE html>
@@ -21,7 +31,7 @@
   <link href="styles/style.css" rel="stylesheet">
   
 
-  <title>Rolando Dominguez Resume</title>
+  <title>Rolando Dominguez Portfolio</title>
 </head>
   <body>
    <!-- <button type="button" class="mobile-nav-toggle d-xl-none"><i class="bi bi-list mobile-nav-toggle"></i></button> -->
@@ -232,7 +242,7 @@
   </section><!-- End Resume Section -->
 
   <br>
-     <!-- ======= Contact Section ======= -->
+     <!-- ======= Exxperience Section ======= -->
      <section id="experience">
       <div class="container">
 
@@ -325,11 +335,74 @@
       
 
       </div>
-    </section><!-- End Contact Section -->
+    </section>
 
       <!-- ======= Contact Section ======= -->
 
     <br>
+
+
+     <!-- ======= Exxperience Section ======= -->
+     <section id="personalPortfolio">
+      <div class="container">
+
+        <div class="section-title">
+          <h2>Personal portfolio</h2>
+          <p >One of the most things that I´ve enjoyed through the years is apply my tech skills to my personal life projects, and why not? help others; so here you can found my top 3 personal projects</p>
+        </div>
+        <br>
+        <div class="row">
+          <div class="col-sm-12 col-md-6 g-3">
+            <div class="card shadow-sm">
+            <a href="https://nglifecounter.azurewebsites.net/" target="_blank">
+              <img width="300" height="270" src="img/ngLifeCounter.png" class="d-block w-100 zoom" alt="...">
+            </a>
+              <div class="card-body">
+                <p class="card-text" style="text-align: justify;"><strong>ngLifeCounter</strong> For people who have ever had personal problems and who want to keep track of their days without falling back into bad habits, 
+                  this application helps them have a sense of progress and personalize their counts with photographs of family members or pets. Open source project made in Angular 17 and dotnet 8 </p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                   
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-12 col-md-6 g-3">
+            <div class="card shadow-sm">
+              <a href="https://openglc.azurewebsites.net/" target="_blank">
+              <img width="300" height="270" src="img/openglc.png" class="d-block w-100 zoom" alt="...">
+              </a>
+              <div class="card-body">
+                <p class="card-text" style="text-align: justify;"><strong>Open glc</strong> As a diabetic I need to keep track of my sugar levels and have a correlation of which 
+                  foods cause my glucose levels to rise; so this application made in Angular and dotnet helps me visualize my levels for the last 3 months, record and consult which foods are best for me </p>
+                
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-12 col-md-6 g-3">
+            <div class="card shadow-sm">
+              <!-- <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg> -->
+              <a href="https://weddingplannerir.azurewebsites.net/" target="_blank">
+                <img  width="300" height="270" src="img/weddingPlanner.png" class="d-block w-100 zoom" alt="...">
+              </a>
+              <div class="card-body">
+                <p class="card-text" style="text-align: justify;"><strong>Wedding Planner IR.</strong> 
+                  Organizing a wedding is challenging and crazy. So this software prepares the invitations and send over e-mail, allows guests to be assigned tables and to confirm their attendance using a QA code.
+                  Made with Angular 17 and dotnet 8, is not an open source project by the moment, but you can request access if you are courius
+                </p>
+               
+              </div>
+            </div>
+          </div>
+         
+        </div>
+        </div>
+      
+
+      </div>
+    </section>
+<br>
     <!-- ======= Contact Section ======= -->
     <section id="contact">
       <div class="container" data-aos="fade-up">

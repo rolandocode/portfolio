@@ -72,13 +72,13 @@
     }
   }
 
-  #experience .card {
+  #experience .card, #personalPortfolio .card {
     /* display: flex;
     flex-direction: column; */
     height: 100%;
 }
 
-#experience .card-body {
+#experience .card, #personalPortfolio .card {
     flex-grow: 1; /* Makes sure the body section fills the available space */
 }
   
